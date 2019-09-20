@@ -10,7 +10,7 @@ paragraf.onclick = (event) => {
     paragraf.innerText = '';
     paragraf.appendChild(img);
 }
-img.onmouseenter = (event) => {
+img.onmousemove = (event) => {
     img.classList.add('img-width');
 }
 img.onclick = (event) => {
